@@ -1,0 +1,18 @@
+## Capstone Project Proposal
+
+## What is the problem you want to solve?
+How does political spending within an industry translate into financial returns over time?
+
+## Who is your client and why do they care about this problem? In other words, what will your client DO or DECIDE based on your analysis that they wouldn’t have otherwise?
+Hypothetically, my client is an organization that regularly lobbies with federal officials. Predictive analysis will give them a better understanding of which races to focus their efforts on to get the best “bang for their buck”.
+
+## What data are you going to use for this? How will you acquire this data?
+There are several datasets on MapLight relating campaign spending and support to legislation, linked by organization and politician that can be downloaded freely. I will also use earnings data from the SEC to track the income of companies across sectors.
+
+## In brief, outline your approach to solving this problem (knowing that this might change later).
+I will combine the MapLight datasets into a time series that shows, by industry, how much money was spent per legislative outcome that went that donor’s way. Then, I will relate the companies listed in the SEC data to their sectors described from MapLight, and compare their earnings over time to campaign contributions and legislative outcomes.
+
+## What are your deliverables? Typically, this would include code, along with a paper and/or a slide deck.
+Jupyter notebook for data wrangling and machine learning code.
+Paper describing my methodology and approach, as well as the insights gained from this analysis.
+Slide deck outlining the main points of the previous report.
